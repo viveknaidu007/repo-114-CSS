@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>attributes selectors</title>
+        <style>
+            input:checked +label{
+                background: green;
+                color: white;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <p> language known </p>
+        <input type="checkbox" checked> <label> Telugu </label>
+        <input type="checkbox"> <label> English </label>
+        <input type="checkbox"> <label> Hindi </label>
+    </body>
+</html>
